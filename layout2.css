@@ -1,0 +1,52 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 150px 1fr 150px;
+}
+
+header{
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+main{
+    background-color: slategrey;
+    display: grid;
+    grid-template-areas: "nav article aside";
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+nav {
+    background-color: powderblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+article{
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+aside{
+    background-color: rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+footer{
+    background-color: sandybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}

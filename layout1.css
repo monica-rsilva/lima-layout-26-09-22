@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 150px;
+}
+header{
+    background-color: tomato;
+    /*display: grid;
+    place-items: center;*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+main{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+footer{
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}

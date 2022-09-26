@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "nav header"
+    "nav   main"
+    "nav footer";
+    grid-template-rows: 150px 1fr 150px;
+    grid-template-columns: 250px 1fr;
+}
+
+header{
+    grid-area: header;
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+main{
+    background-color: slategrey;
+    display: grid;
+    grid-template-areas: "article aside";
+    grid-template-columns: 3fr 1fr;
+}
+
+footer{
+    grid-area: footer;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+nav{
+    grid-area: nav;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+article{
+    background-color: darksalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+aside{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
